@@ -1,0 +1,359 @@
+.header {
+  background: #ddd;
+  background-image: url(../image/navbar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__child {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.header__navbar {
+  background-color: rgba(65, 65, 88, 0.5);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  display: block;
+  text-decoration: none;
+  font-size: 3.7rem;
+  color: var(--white-color);
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fefefe;
+  padding: 3rem 2rem;
+}
+
+.navbar__link:hover {
+  color: #a6a6a6;
+}
+
+.navbar__link--active {
+  color: #a6a6a6;
+}
+
+.sidebar__child {
+  height: 60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar__avarta {
+  margin-left: 14rem;
+}
+
+.sidebar__avarta img {
+  display: block;
+  width: 25rem;
+  border-radius: 50%;
+}
+
+.sidebar__info-author-name {
+  font-size: 3.7rem;
+  line-height: 3.4rem;
+  color: var(--white-color);
+  user-select: none;
+}
+
+.sidebar__info-job {
+  display: block;
+  font-size: 2.3rem;
+  line-height: 3.4rem;
+  color: var(--white-color);
+  margin: 1rem 0 3rem;
+  user-select: none;
+}
+
+.sidebar__info-desc {
+  font-size: 1.7rem;
+  width: 47rem;
+  line-height: 3.2rem;
+  color: var(--white-color);
+  font-style: italic;
+  user-select: none;
+}
+
+.sidebar__info-social-contact {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.sidebar__info-social-contact-btn {
+  font-size: 2.1rem;
+  color: #2e2e2e;
+  font-weight: 100;
+  padding: 1.3rem 5rem;
+  margin-right: 8px;
+  outline: none;
+  border: none;
+  transition: 0.25s linear;
+  cursor: pointer;
+}
+
+.sidebar__info-social-contact-btn:hover {
+  background: #c9c9c9;
+}
+
+.sidebar__info-social-contat-list {
+  display: flex;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+.sidebar__info-social-contact-link {
+  display: block;
+  text-decoration: none;
+  padding: 0 12px;
+}
+
+/* ---- Slider ----- */
+.slider {
+  background: var(--white-color);
+}
+
+.slider__title {
+  font-size: 4.5rem;
+  color: var(--black-color);
+  font-weight: 300;
+  text-align: center;
+  padding: 4rem 0 0;
+}
+
+.slider__desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 10rem;
+}
+
+.slider__desc-text {
+  font-size: 1.5rem;
+  line-height: 3.1rem;
+  text-align: center;
+  width: 75rem;
+}
+
+.slider__desc-icon {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  background: #545454;
+  margin: 0 9rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slider__desc-icon img {
+  display: block;
+  margin: 0.8rem auto;
+}
+
+/* --- Style anywhere --- */
+.anywhere {
+  background: #eeeeee;
+  padding-bottom: 6rem;
+}
+
+.anywhere__title {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 3.4rem;
+  padding: 6rem;
+}
+
+.anywhere__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2c2c2b;
+  margin-bottom: 2.4rem;
+}
+
+.anywhere__button-link {
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 3.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.anywhere__button-link:hover {
+  background: var(--black-color);
+}
+
+/* --- my__job --- */
+.my__job-web-design {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.my__job-web-design--edit {
+  align-items: center;
+}
+
+.web__design-desc-heading {
+  font-size: 4rem;
+  line-height: 3.3rem;
+  margin-bottom: 4rem;
+}
+
+.my__job-web-design-desc-text {
+  font-size: 1.8rem;
+  line-height: 3.3rem;
+  width: 64.9rem;
+}
+
+.my__job-web-design-desc-text a {
+  text-decoration: none;
+  color: #00527d;
+}
+
+.my__job-web-design-desc-text a:hover {
+  text-decoration: underline;
+  color: #00527d;
+}
+
+.my__job-web-design--order {
+  order: 1;
+}
+
+/* --- style my__picture */
+.my__picture {
+  background: #597f97;
+  padding: 6rem 0;
+}
+
+.my__picture-title {
+  font-size: 4.5rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: var(--white-color);
+  padding: 4rem 0 2rem;
+}
+
+.my__picture-detail {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 3.3rem;
+  color: var(--white-color);
+  margin-bottom: 5rem;
+}
+
+.my__picture-detail a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.my__picture-detail a:hover {
+  text-decoration: underline;
+  color: var(--black-color);
+}
+
+.my__picture-layout-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 276px;
+  background: #7d7d7d;
+  margin-bottom: 3rem;
+}
+
+.my__picture-layout-item p {
+  font-size: 2rem;
+  color: var(--white-color);
+}
+
+/* contact__with-me */
+.contact__with-me {
+  padding: 4rem 0 8rem;
+}
+
+.contact__with-me-title {
+  text-align: center;
+  font-size: 4.5rem;
+  line-height: 3.3rem;
+  margin-bottom: 8rem;
+}
+
+.contact__with-me-detail {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact__with-me-social-media-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.contact__with-me-social-media-item img {
+  display: block;
+  margin-right: 0.8rem;
+}
+
+.contact__with-me-social-media-item p {
+  font-size: 1.4rem;
+  line-height: 3.3rem;
+}
+
+.contact__with-me-social-media-item p > span {
+  margin-right: 0.7rem;
+}
+
+/* --- footer --- */
+.footer {
+  height: 100vh;
+  background: #2b2b2b;
+  padding: 8rem;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__block-item > h2 {
+  font-size: 2.4rem;
+  color: var(--white-color);
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #5f605f;
+}
+
+.footer__block-item-list {
+  margin-top: 2rem;
+}
+
+.footer__block-item-link {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 3.3rem;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.footer__block-item-link:hover {
+  text-decoration: underline;
+}
